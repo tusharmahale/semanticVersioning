@@ -13,7 +13,7 @@ python bump_version.py '1.2.3' 'ci: this is test'
 ```
 OR you can call python function as below
 ```python
-bump_version('3.2.0', 'feat: New shiny feature'), '3.3.0')
+bump_version('3.2.0', 'feat: New shiny feature')
 ```
 
 new_version: Function will return new version
