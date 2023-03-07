@@ -11,6 +11,11 @@ To use the script, simply call the bump_version() function and pass in the curre
 python bump_version.py '<current_version>' '<change-type>: <change message>'
 python bump_version.py '1.2.3' 'ci: this is test'
 ```
+OR you can call python function as below
+```python
+bump_version('3.2.0', 'feat: New shiny feature'), '3.3.0')
+```
+
 new_version: Function will return new version
 
 ### Guidelines for Version Bumping
